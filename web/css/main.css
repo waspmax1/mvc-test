@@ -1,0 +1,43 @@
+footer.footer{
+    height: 200px;
+    background-color: #ddd;
+    border-top: 2px solid #fc0;
+    margin-top: 30px;
+}
+
+.content{
+    min-height: 800px;
+}
+
+.post-thumb{
+    margin: 20px auto;
+}
+
+.admin-thumb{
+    max-width: 250px;
+}
+
+body.home .navbar-custom,
+body.category .navbar-custom{
+    background: #3a3232;
+    position: static;
+}
+
+footer{
+    border-top: 1px solid #999;
+    margin-top: 30px;
+}
+
+.read-more{
+    background-color: #ffcc00;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.read-more:hover{
+    opacity: 1;
+    text-decoration: none;
+    color: #333333;
+}

@@ -1,0 +1,10 @@
+{
+	"autoload":{
+		"psr-4":{
+				"controllers\\": "frontend\\controllers",
+				"models\\": "frontend\\models",
+				"admin\\controllers\\": "backend\\controllers",
+				"admin\\models\\": "backend\\models"
+			}
+		}
+}
