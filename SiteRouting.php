@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class SiteRouting
 {
     public function __construct()
