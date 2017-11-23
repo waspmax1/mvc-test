@@ -10,3 +10,11 @@
 ### Example
 1. /admin/post/index
 2. /admin/post/view/1
+
+## Screenshots:
+
+### Frontend
+
+#### Main page
+
+![frontend index page](/screenshots/Index%20page.png?raw=true)
