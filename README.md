@@ -1,7 +1,7 @@
 # MVC test project on php trainee position
 
-##Frontend routing:
+## Frontend routing:
 **/controller/action[/params]/**
 
-##Backend routing:
+## Backend routing:
 **/admin/controller/action[/params]/**
