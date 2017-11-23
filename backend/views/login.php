@@ -1,10 +1,3 @@
-<?php
-
-
-$loginObj = new \admin\controllers\AdminController();
-
-
-?>
 <div class="container">
     <div class="row">
         <h1>Login</h1>
@@ -21,7 +14,3 @@ $loginObj = new \admin\controllers\AdminController();
         </form>
     </div>
 </div>
-
-<?
-//debug($_COOKIE);
-?>

@@ -1,10 +1,12 @@
 <?php
+
 namespace controllers;
 
 use models\DbModel;
 
 class CategoryController extends Controller
 {
+
 	public function actionView($id)
 	{
 	    $myModel = new DbModel();
@@ -13,3 +15,4 @@ class CategoryController extends Controller
 		$this->render('frontend', 'main/header', 'main/footer','category/view', compact('categoryPosts', 'pageInfo'));
 	}
 }
+

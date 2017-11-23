@@ -1,10 +1,12 @@
 <?php
+
 namespace admin\models;
 
 use models\DbModel;
 
 class AdminDbModel extends DbModel
 {
+
     protected $login;
     public function __construct()
     {

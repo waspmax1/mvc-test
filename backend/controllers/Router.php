@@ -1,7 +1,7 @@
 <?php
 
 namespace admin\controllers;
-use admin\controllers\AdminController;
+
 
 class Router
 {

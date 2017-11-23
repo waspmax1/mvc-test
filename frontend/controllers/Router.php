@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 07.11.2017
- * Time: 20:24
- */
 
 namespace controllers;
-use controllers\CategoryController;
 
 class Router
 {
+
     private $uri;
 
     public function __construct($uri = '/')

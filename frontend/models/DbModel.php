@@ -2,13 +2,12 @@
 
 namespace models;
 
-use controllers\Controller;
 use controllers\SiteController;
 use PDO;
-use Exception;
 
 class DbModel
 {
+
     protected $dbh;
     public function __construct()
     {

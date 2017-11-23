@@ -1,8 +1,3 @@
-<?php
-
-// debug($getCat);
-
-?>
 <div class="container">
     <div class="row">
         <h1><?=$getCat['title'];?> Edit</h1>

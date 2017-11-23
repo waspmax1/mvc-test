@@ -6,6 +6,7 @@ use PDO;
 
 class CategoryModel extends AdminDbModel
 {
+
     public $updateResult;
     public $createResult;
     public function __construct()

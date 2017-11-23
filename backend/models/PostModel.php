@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 18.11.2017
- * Time: 20:12
- */
 
 namespace admin\models;
 
@@ -12,6 +6,7 @@ use PDO;
 
 class PostModel extends AdminDbModel
 {
+
     public $updateResult;
     public function __construct()
     {

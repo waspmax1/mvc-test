@@ -1,16 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 09.11.2017
- * Time: 11:07
- */
 
 namespace controllers;
+
 use models\DbModel;
 
 class PageController extends Controller
 {
+
     public function actionView($id)
     {
         $myModel = new DbModel();

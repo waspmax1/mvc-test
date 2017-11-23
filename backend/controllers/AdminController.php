@@ -1,12 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 11.11.2017
- * Time: 13:53
- */
 
 namespace admin\controllers;
+
 use controllers\Controller;
 use admin\models\AdminDbModel;
 

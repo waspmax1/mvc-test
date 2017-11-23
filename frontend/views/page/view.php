@@ -13,7 +13,6 @@
         </div>
     </div>
 </header>
-
 <article>
     <div class="container">
         <div class="row">
@@ -23,15 +22,3 @@
         </div>
     </div>
 </article>
-
-<!--<div class="container">-->
-<!--    <div class="row">-->
-<!--        <h1 align="center">--><?//=$postContent['title']?><!--</h1>-->
-<!--        --><?php //if(file_exists($_SERVER['DOCUMENT_ROOT'].'/web/images/'.$postContent['thumbnail'])): ?>
-<!--            <img class="img-responsive post-thumb" src="--><?//='/web/images/'.$postContent['thumbnail']; ?><!--" alt="--><?//=$postContent['title']?><!--">-->
-<!--        --><?php //else: ?>
-<!--            <img class="img-responsive post-thumb" src="/web/images/no-image.png" alt="--><?//=$postContent['title']?><!--">-->
-<!--        --><?php //endif;?>
-<!--        <p>--><?//=$postContent['content']?><!--</p>-->
-<!--    </div>-->
-<!--</div>-->

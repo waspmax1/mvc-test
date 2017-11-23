@@ -6,6 +6,7 @@ use models\DbModel;
 
 class SiteController extends Controller
 {
+
 	public function actionIndex()
 	{
         $myModel = new DbModel();

@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 08.11.2017
- * Time: 18:13
- */
 
 namespace controllers;
 
-
 class Controller
 {
+
     private $id;
     public function actionView($id)
     {

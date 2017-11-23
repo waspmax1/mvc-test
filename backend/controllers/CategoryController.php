@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 12.11.2017
- * Time: 16:47
- */
 
 namespace admin\controllers;
 
@@ -13,6 +7,7 @@ use controllers\Controller;
 
 class CategoryController extends Controller
 {
+
     public function view($id)
     {
         $categoryModel = new CategoryModel();

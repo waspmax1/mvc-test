@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wasmax1
- * Date: 18.11.2017
- * Time: 20:11
- */
 
 namespace admin\controllers;
 
@@ -14,6 +8,7 @@ use controllers\Controller;
 
 class PostController extends Controller
 {
+
     public function index()
     {
         $pageModel = new PostModel();
